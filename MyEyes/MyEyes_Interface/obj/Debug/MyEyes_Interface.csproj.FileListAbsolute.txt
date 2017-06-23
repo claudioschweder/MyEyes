@@ -1,5 +1,4 @@
 D:\Projeto\MyEyes\MyEyes\MyEyes_Interface\obj\Debug\MyEyes_Interface.csprojResolveAssemblyReference.cache
-D:\Hackathon\MyEyes\MyEyes\MyEyes_Interface\obj\Debug\MyEyes_Interface.csprojResolveAssemblyReference.cache
 D:\Hackathon\MyEyes\MyEyes\MyEyes_Interface\obj\Debug\MyEyes.dll
 D:\Hackathon\MyEyes\MyEyes\MyEyes_Interface\obj\Debug\MyEyes.pdb
 D:\Hackathon\MyEyes\MyEyes\MyEyes_Interface\bin\Debug\MyEyes.dll
