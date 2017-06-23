@@ -25,6 +25,6 @@ public final class R {
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;
-        public static final int Hello=0x7f040000;
+        public static final int Teste=0x7f040000;
     }
 }
