@@ -1,0 +1,11 @@
+D:\Projeto\MyEyes\MyEyes\MyEyes_API\bin\Debug\MyEyes_API.dll
+D:\Projeto\MyEyes\MyEyes\MyEyes_API\bin\Debug\MyEyes_API.pdb
+D:\Projeto\MyEyes\MyEyes\MyEyes_API\bin\Debug\MyEyes_API.MyEyes_API.apk
+D:\Projeto\MyEyes\MyEyes\MyEyes_API\bin\Debug\MyEyes_API.MyEyes_API-Signed.apk
+D:\Projeto\MyEyes\MyEyes\MyEyes_API\obj\Debug\MyEyes_API.csprojResolveAssemblyReference.cache
+D:\Projeto\MyEyes\MyEyes\MyEyes_API\obj\Debug\MyEyes_API.dll
+D:\Projeto\MyEyes\MyEyes\MyEyes_API\obj\Debug\MyEyes_API.pdb
+D:\Projeto\MyEyes\MyEyes\MyEyes_API\obj\Debug\android\bin\MyEyes_API.MyEyes_API.apk
+D:\Projeto\MyEyes\MyEyes\MyEyes_API\obj\Debug\res\values\strings.xml
+D:\Projeto\MyEyes\MyEyes\MyEyes_API\obj\Debug\R.cs.flag
+D:\Projeto\MyEyes\MyEyes\MyEyes_API\obj\Debug\uploadflags.txt

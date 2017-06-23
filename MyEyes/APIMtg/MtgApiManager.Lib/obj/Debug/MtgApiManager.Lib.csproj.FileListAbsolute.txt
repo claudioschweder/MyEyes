@@ -1,0 +1,3 @@
+D:\Projeto\MyEyes\MyEyes\APIMtg\MtgApiManager.Lib\obj\Debug\MtgApiManager.Lib.csprojResolveAssemblyReference.cache
+D:\Projeto\MyEyes\MyEyes\APIMtg\MtgApiManager.Lib\obj\Debug\MtgApiManager.Lib.Properties.Resources.resources
+D:\Projeto\MyEyes\MyEyes\APIMtg\MtgApiManager.Lib\obj\Debug\MtgApiManager.Lib.csproj.GenerateResource.Cache
