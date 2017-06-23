@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEyes", "MyEyes\MyEyes.csproj", "{B2DD4EB2-47F8-4152-864C-6C0D3C32E494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtgApiManager.Lib", "APIMtg\MtgApiManager.Lib\MtgApiManager.Lib.csproj", "{80FC4EAF-CE51-4507-8282-FA3331B2883A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2DD4EB2-47F8-4152-864C-6C0D3C32E494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DD4EB2-47F8-4152-864C-6C0D3C32E494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DD4EB2-47F8-4152-864C-6C0D3C32E494}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B2DD4EB2-47F8-4152-864C-6C0D3C32E494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DD4EB2-47F8-4152-864C-6C0D3C32E494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2DD4EB2-47F8-4152-864C-6C0D3C32E494}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{80FC4EAF-CE51-4507-8282-FA3331B2883A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FC4EAF-CE51-4507-8282-FA3331B2883A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FC4EAF-CE51-4507-8282-FA3331B2883A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FC4EAF-CE51-4507-8282-FA3331B2883A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
