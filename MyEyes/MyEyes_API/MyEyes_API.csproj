@@ -47,7 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyEyes_API.cs" />
+    <Compile Include="ProcessamentoImagem.cs" />
+    <Compile Include="ProcessamentoImagemTests.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
