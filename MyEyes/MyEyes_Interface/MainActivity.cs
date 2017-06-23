@@ -60,7 +60,7 @@ namespace MyEyes
             StartActivity(it);
 
             if (GetIntent().getBooleanExtra("SAIR", false))
-            {
+            {d
                 Finish();
             }
             super.onResume();*/
