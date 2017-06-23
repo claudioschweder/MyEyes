@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Android.Content;
 
 namespace MyEyes
 {
@@ -51,21 +52,19 @@ namespace MyEyes
 
         }
 
-        Intent it = new Intent(getApplicationContext(), ActivityMain);
-        it.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        it.putExtra("SAIR", true);
-        startActivity(it);
-
-        //no onResume da ActivityMain você coloca o seguinte
-
-        @Override
         protected void onResume()
         {
-            if (getIntent().getBooleanExtra("SAIR", false))
+            /*Intent it = new Intent(getApplicationContext(), ActivityMain);
+            it.AddFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            it.PutExtra("SAIR", true);
+            StartActivity(it);
+
+            if (GetIntent().getBooleanExtra("SAIR", false))
             {
-                finish();
+                Finish();
             }
-            super.onResume();
+            super.onResume();*/
+
         }
 
         public void Voltar()
@@ -78,7 +77,7 @@ namespace MyEyes
             //define o botão positivo
             alerta.SetPositiveButton("Ok", (senderAlert, args) =>
             {
-                this.finish();
+                Finish();
             });
             //define o botão negativo
             alerta.SetNegativeButton("Cancelar", (senderAlert, args) =>
