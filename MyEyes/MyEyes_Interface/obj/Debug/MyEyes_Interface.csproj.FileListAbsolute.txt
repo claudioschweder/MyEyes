@@ -1,1 +1,3 @@
 D:\Projeto\MyEyes\MyEyes\MyEyes_Interface\obj\Debug\MyEyes_Interface.csprojResolveAssemblyReference.cache
+D:\Projeto\MyEyes\MyEyes\MyEyes_Interface\obj\Debug\MyEyes.dll
+D:\Projeto\MyEyes\MyEyes\MyEyes_Interface\obj\Debug\MyEyes.pdb

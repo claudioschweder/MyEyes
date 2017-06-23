@@ -1,0 +1,9 @@
+D:\Projeto\MyEyes\MyEyes\APIMtg\MtgApiManager.Lib\bin\Release\MtgApiManager.Lib.dll
+D:\Projeto\MyEyes\MyEyes\APIMtg\MtgApiManager.Lib\bin\Release\MtgApiManager.Lib.pdb
+D:\Projeto\MyEyes\MyEyes\APIMtg\MtgApiManager.Lib\bin\Release\Newtonsoft.Json.dll
+D:\Projeto\MyEyes\MyEyes\APIMtg\MtgApiManager.Lib\bin\Release\Newtonsoft.Json.xml
+D:\Projeto\MyEyes\MyEyes\APIMtg\MtgApiManager.Lib\obj\Release\MtgApiManager.Lib.csprojResolveAssemblyReference.cache
+D:\Projeto\MyEyes\MyEyes\APIMtg\MtgApiManager.Lib\obj\Release\MtgApiManager.Lib.Properties.Resources.resources
+D:\Projeto\MyEyes\MyEyes\APIMtg\MtgApiManager.Lib\obj\Release\MtgApiManager.Lib.csproj.GenerateResource.Cache
+D:\Projeto\MyEyes\MyEyes\APIMtg\MtgApiManager.Lib\obj\Release\MtgApiManager.Lib.dll
+D:\Projeto\MyEyes\MyEyes\APIMtg\MtgApiManager.Lib\obj\Release\MtgApiManager.Lib.pdb
