@@ -2,6 +2,8 @@
 using Android.Widget;
 using Android.OS;
 using Android.Content;
+using Android.Graphics;
+using Xamarin.Android;
 
 namespace MyEyes
 {
@@ -27,8 +29,7 @@ namespace MyEyes
         }
 
         public void IniciarCamera() {
-            // Intent intent = new Intent(MediaStore.ActionImageCapture);
-            // StartActivityForResult(intent, 0);
+            
         }
 
         public void Capturar()
@@ -49,21 +50,6 @@ namespace MyEyes
 
         public void Repetir()
         {
-
-        }
-
-        protected void onResume()
-        {
-            /*Intent it = new Intent(getApplicationContext(), ActivityMain);
-            it.AddFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            it.PutExtra("SAIR", true);
-            StartActivity(it);
-
-            if (GetIntent().getBooleanExtra("SAIR", false))
-            {d
-                Finish();
-            }
-            super.onResume();*/
 
         }
 

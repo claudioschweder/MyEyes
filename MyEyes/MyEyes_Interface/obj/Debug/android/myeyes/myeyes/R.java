@@ -15,15 +15,16 @@ public final class R {
     }
     public static final class id {
         public static final int Capturar=0x7f050002;
+        public static final int ImageCamera=0x7f050001;
         public static final int Repetir=0x7f050004;
         public static final int Voltar=0x7f050003;
         public static final int relativeLayout1=0x7f050000;
-        public static final int videoView1=0x7f050001;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040000;
+        public static final int openCamera=0x7f040001;
     }
 }
