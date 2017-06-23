@@ -12,6 +12,8 @@ namespace MyEyes
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
 
+            IniciarCamera();
+
             // Criação de botões
             Button BtnCapturar = FindViewById<Button>(Resource.Id.Capturar);
             Button BtnRepetir = FindViewById<Button>(Resource.Id.Repetir);
@@ -21,6 +23,11 @@ namespace MyEyes
             BtnCapturar.Click += delegate { Capturar(); };
             BtnRepetir.Click += delegate { Repetir(); };
             BtnVoltar.Click += delegate { Voltar(); };
+        }
+
+        public void IniciarCamera() {
+            // Intent intent = new Intent(MediaStore.ActionImageCapture);
+            // StartActivityForResult(intent, 0);
         }
 
         public void Capturar()
@@ -44,6 +51,23 @@ namespace MyEyes
 
         }
 
+        Intent it = new Intent(getApplicationContext(), ActivityMain);
+        it.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        it.putExtra("SAIR", true);
+        startActivity(it);
+
+        //no onResume da ActivityMain você coloca o seguinte
+
+        @Override
+        protected void onResume()
+        {
+            if (getIntent().getBooleanExtra("SAIR", false))
+            {
+                finish();
+            }
+            super.onResume();
+        }
+
         public void Voltar()
         {
             //define o alerta para executar a tarefa
@@ -54,7 +78,7 @@ namespace MyEyes
             //define o botão positivo
             alerta.SetPositiveButton("Ok", (senderAlert, args) =>
             {
-                Toast.MakeText(this, "Saindo...", ToastLength.Short).Show();
+                this.finish();
             });
             //define o botão negativo
             alerta.SetNegativeButton("Cancelar", (senderAlert, args) =>
