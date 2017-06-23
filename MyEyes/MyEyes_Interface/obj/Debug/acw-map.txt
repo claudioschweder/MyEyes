@@ -1,0 +1,4 @@
+MyEyes.MainActivity, MyEyes;md583c9154b7e365b4f7ea34b7e1a1cdbdc.MainActivity
+MyEyes.MainActivity, MyEyes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md583c9154b7e365b4f7ea34b7e1a1cdbdc.MainActivity
+MyEyes.MainActivity;md583c9154b7e365b4f7ea34b7e1a1cdbdc.MainActivity
+myeyes.MainActivity;md583c9154b7e365b4f7ea34b7e1a1cdbdc.MainActivity
