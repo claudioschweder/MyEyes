@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/MagicTheGathering/mtg-sdk-dotnet/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/MagicTheGathering/mtg-sdk-dotnet</projectUrl>   
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Fixed bugs.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>magicthegathering mtg magic sdk api web</tags>
+	<dependencies>
+      <dependency id="Newtonsoft.Json" version="9.0" />
+    </dependencies>
+  </metadata>
+</package>
