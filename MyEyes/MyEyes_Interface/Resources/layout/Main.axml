@@ -22,7 +22,10 @@
         p1:textSize="65dp"
         p1:visibility="visible"
         p1:layout_marginLeft="10dp"
-        p1:layout_marginRight="10dp" />
+        p1:layout_marginRight="10dp"
+        p1:enabled="true"
+        p1:clickable="true"
+        p1:onClick="@android:string/VideoView_error_title" />
     <Button
         p1:text="VOLTAR"
         p1:layout_width="wrap_content"

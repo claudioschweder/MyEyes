@@ -10,14 +10,28 @@ namespace MyEyes
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+            SetContentView(Resource.Layout.Main);
 
-            // Set our view from the "main" layout resource;
-            SetContentView (Resource.Layout.Main);
+            Button Confirmar = FindViewById<Button>(Resource.Id.Capturar);
+            Confirmar.Click += delegate { Teste(); };
+
+            Button Repetir = FindViewById<Button>(Resource.Id.Repetir);
+            Repetir.Click += delegate { Teste(); };
         }
 
-        public void Teste()
+        public void Confirmar()
         {
-                
+
+        }
+
+        public void Confirmar()
+        {
+
+        }
+
+        public void Confirmar()
+        {
+
         }
     }
 }
