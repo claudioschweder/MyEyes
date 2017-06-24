@@ -4,6 +4,8 @@ using Android.OS;
 using Android.Content;
 using Android.Graphics;
 using Xamarin.Android;
+using Android.Provider;
+using Android.Runtime;
 
 namespace MyEyes
 {
@@ -15,7 +17,17 @@ namespace MyEyes
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
 
-            IniciarCamera();
+            /*public void IniciarCamera() {
+                Intent intent = new Intent(MediaStore.ActionImageCapture);
+                StartActivityForResult(intent, 0);
+            }
+
+            protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+            {
+                base.OnActivityResult(requestCode, resultCode, data);
+                global::Android.Graphics.Bitmap bitmap = (Bitmap)data.Extras.Get("data");
+                imgView1.SetImageBitmap(bitmap);
+            }*/
 
             // Criação de botões
             Button BtnCapturar = FindViewById<Button>(Resource.Id.Capturar);
@@ -26,10 +38,6 @@ namespace MyEyes
             BtnCapturar.Click += delegate { Capturar(); };
             BtnRepetir.Click += delegate { Repetir(); };
             BtnVoltar.Click += delegate { Voltar(); };
-        }
-
-        public void IniciarCamera() {
-            
         }
 
         public void Capturar()

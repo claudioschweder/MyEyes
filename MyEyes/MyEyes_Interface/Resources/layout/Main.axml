@@ -13,7 +13,8 @@
         p1:layout_marginTop="10dp"
         p1:layout_marginLeft="10dp"
         p1:layout_marginRight="10dp"
-        p1:layout_marginBottom="325dp" />
+        p1:layout_marginBottom="325dp"
+        p1:visibility="visible" />
     <Button
         p1:text="CAPTURAR"
         p1:layout_width="wrap_content"

@@ -11,3 +11,5 @@ D:\Hackathon\MyEyes\MyEyes\MyEyes_Interface\obj\Debug\res\values\strings.xml
 D:\Hackathon\MyEyes\MyEyes\MyEyes_Interface\obj\Debug\res\drawable\icon.png
 D:\Hackathon\MyEyes\MyEyes\MyEyes_Interface\obj\Debug\R.cs.flag
 D:\Hackathon\MyEyes\MyEyes\MyEyes_Interface\obj\Debug\uploadflags.txt
+D:\Hackathon\MyEyes\MyEyes\MyEyes_Interface\bin\Debug\MyEyes.dll.mdb
+D:\Hackathon\MyEyes\MyEyes\MyEyes_Interface\obj\Debug\android\assets\MyEyes.dll.mdb
